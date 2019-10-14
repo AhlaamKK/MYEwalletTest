@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MYEwalletTest</string>
+    <string name="HelloText">Welcome Back!</string>
+    <string name="AmountText">Your Wallet Balance is</string>
+    <string name="amountValue">0 KWD</string>
+    <string name="TopUp_button">Top up</string>
+    <string name="transfer_button">Transfer</string>
+</resources>
