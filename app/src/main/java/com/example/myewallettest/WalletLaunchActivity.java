@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import company.tap.gosellapi.GoSellSDK;
+import company.tap.gosellapi.internal.activities.GoSellPaymentActivity;
+import company.tap.gosellapi.internal.api.facade.GoSellAPI;
+import company.tap.gosellapi.internal.fragments.GoSellPaymentOptionsFragment;
+import company.tap.gosellapi.internal.interfaces.GoSellPaymentDataSource;
+
 public class WalletLaunchActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button TopUp_Button;
@@ -17,6 +23,11 @@ public class WalletLaunchActivity extends AppCompatActivity implements View.OnCl
         setContentView(R.layout.activity_wallet_launch);
 
         InitializeViews();
+
+
+//CallinG AUTHENTICATION API
+          GoSellSDK.init(getApplicationContext(),"sk_test_SPoE04D3brxqZF9t6s7dMyRG","com.tap.company.assessment");
+
     }
 
     public void InitializeViews(){
