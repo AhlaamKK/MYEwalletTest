@@ -10,3 +10,5 @@ The demo app is integrated with self created library.
 2.  Sync the gradle files using sync button.
 3.  Goto BUild > Rebuild project, will build the project.
 4.  On successfull build, Run the project on the emulator/ android device by Run >Run ( Or Alt + Shift + f10 )
+## Demo
+![MYEwallet Demo](device-2019-10-16-004359.gif)
